@@ -37,7 +37,8 @@ public class ExerciseOne {
 
 		return arrDistincts.size();
 	}
-
+	// this method is using HashMap to count the distinct numbers the number of times a given element consists in the array
+	
 	static int distinctsCount(int[] array) {
 
 		HashMap<Integer, Integer> distMap = new HashMap<Integer, Integer>();
